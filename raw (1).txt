@@ -9,7 +9,7 @@ local Window = Libary:MakeWindow({
     Flags = "night_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://71102502821991", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://84244050830152", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -18,7 +18,7 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1072341590
 InfoTab:AddDiscordInvite({
     Name = "night client",
     Description = "Join server",
-    Logo = "rbxassetid://71102502821991",
+    Logo = "rbxassetid://84244050830152",
     Invite = "",
 }) 
 InfoTab:AddSection({ "Informações do Script" })
