@@ -32,7 +32,8 @@ InfoTab:AddSection({ "rejoin" })
 InfoTab:AddButton({
     Name = "rejoin",
     Callback = function()
-loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/SQrH9SYp5n7Zyih2/raw"))
+local TeleportService = game:GetService("TeleportService")
+        TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
     end
 })
 
